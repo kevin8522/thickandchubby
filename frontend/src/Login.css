@@ -1,0 +1,285 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    
+}
+
+.login_mobile { 
+    display: none;
+}
+
+.login_desktop {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+
+.login_desktop_form {
+
+    width: 35%;
+ 
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.login_desktop_form_top {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_desktop_form_top_logo {
+    height: 75px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.login_desktop_form_center {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_desktop_form_center_input_con {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.login_desktop_form_center_input_label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.login_desktop_form_center_input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.login_desktop_form_center_password_con {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 85%;
+}
+
+.login_desktop_form_center_password_link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.login_desktop_form_center_btn_con {
+    height: 75px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_desktop_form_center_btn {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login_desktop_form_center_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.login_desktop_form_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.login_desktop_form_bottom_link_text {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.login_desktop_form_bottom_link_register {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+@media (max-width:700px) {
+    .login_desktop {
+
+
+        display: none;
+    }
+
+    .login_mobile {
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    
+    }
+
+    
+
+
+
+
+
+
+
+.login_mobile_form {
+    position: absolute;
+    width: 95%;
+    top: 20%;
+    left: 3%;
+    height: 60%;
+    background-color: white;
+    border-radius: 10px;
+    color: white;
+}
+
+.login_mobile_form_top {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_mobile_form_top_logo {
+    height: 75px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.login_mobile_form_center {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_mobile_form_center_input_con {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.login_mobile_form_center_input_label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.login_mobile_form_center_input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+.login_mobile_form_center_password_con {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 85%;
+}
+
+.login_mobile_form_center_password_link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.login_mobile_form_center_btn_con {
+    height: 75px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_mobile_form_center_btn {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login_mobile_form_center_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.login_mobile_form_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+
+.login_mobile_form_bottom_link_text {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.login_mobile_form_bottom_link_register {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: royalblue;
+    font-weight: bold;
+}
+
+
+}

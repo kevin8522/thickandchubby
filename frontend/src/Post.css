@@ -1,0 +1,40 @@
+.create_profile {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.create_profile_form {
+ height: 100%;
+ width: 100%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.create_profile_form_title {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.create_profile_form_btn {
+    width: 300px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+
+@media (max-width:700px) {
+    .create_profile_form_btn {
+        width: 85%;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+        background-color: orangered;
+        border: none;
+    }
+}

@@ -1,0 +1,260 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.register_desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.register_mobile {
+    display: none;
+}
+
+.register_desktop_form {
+   
+    width: 35%;
+    
+    min-height: 75%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.register_desktop_form_top {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_desktop_form_top_logo {
+    height: 60%;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.register_desktop_form_center {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_desktop_form_center_input_con {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+.register_desktop_form_center_input_label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.register_desktop_form_center_input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    outline: none;
+}
+
+
+
+.register_desktop_form_center_btn_con {
+    height: 75px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_desktop_form_center_btn {
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.register_desktop_form_center_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.register_desktop_form_bottom {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_desktop_form_bottom_link_text {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.register_desktop_form_bottom_link_register {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+@media (max-width:700px) {
+    .register_desktop {
+
+
+        display: none;
+    }
+
+    .register_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+       background-color: whitesmoke;
+    }
+
+ 
+    
+   
+    
+    .register_mobile_form {
+       
+        width: 90%;
+        top: 15%;
+        left: 5%;
+      background-color: white;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    .register_mobile_form_top {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .register_mobile_form_top_logo {
+        height: 60%;
+        width: 100px;
+        border-radius: 10px;
+    }
+    
+    .register_mobile_form_center {
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .register_mobile_form_center_input_con {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    
+    .register_mobile_form_center_input_label {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .register_mobile_form_center_input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid gainsboro;
+        outline: none;
+    }
+    
+    
+    
+    .register_mobile_form_center_btn_con {
+        height: 75px;
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .register_mobile_form_center_btn {
+        width: 80%;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background-color: orangered;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .register_mobile_form_center_btn:hover {
+        background-color: red;
+        color: white;
+    }
+    
+    .register_mobile_form_bottom {
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .register_mobile_form_bottom_link_text {
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+    
+    .register_mobile_form_bottom_link_register {
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        color: royalblue;
+        font-weight: bold;
+    }
+    
+
+
+}

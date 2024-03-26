@@ -1,0 +1,416 @@
+.myprofile {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.myprofile_mobile {
+    display: none;
+}
+
+.myprofile_desktop {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.myprofile_desktop_left {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.myprofile_desktop_left_con {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.myprofile_desktop_left_top_nav {
+    position: absolute;
+    top: 0px;
+    width: 97%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.myprofile_desktop_left_top_nav_left {
+    background-color: white;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+    padding: 10px;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.myprofile_desktop_left_top_nav_right {
+    background-color: white;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+    padding: 10px;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+.myprofile_desktop_left_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.myprofile_desktop_right {
+    width: 50%;
+    padding: 10px;
+}
+
+.myprofile_desktop_right_top_parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+}
+
+.myprofile_desktop_right_top_child_1 {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+}
+
+.myprofile_desktop_right_top_child_1_name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.myprofile_desktop_right_top_child_1_age {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.myprofile_desktop_right_top_child_2 {
+    width: 100%;
+    display: flex;
+}
+
+.myprofile_desktop_right_top_child_1_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.myprofile_desktop_right_top_child_1_location {
+    font-size: 20px;
+    color: gray;
+}
+
+.myprofile_heading_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 40px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.myprofile_desktop_right_interest {
+    display: flex;
+}
+
+.myprofile_desktop_right_interest_card {
+    background-color: white;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+    padding: 5px;
+    border: none;
+    color: red;
+    cursor: pointer;
+    width: 120px;
+}
+
+.myprofile_desktop_right_interest_card_left {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myprofile_desktop_right_interest_card_rigth {
+    font-size: 20px;
+}
+
+.myprofile_heading_2 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 40px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.myprofile_desktop_right_about {
+    display: flex;
+    flex-direction: column;
+}
+
+.myprofile_desktop_right_about_con {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 150px;
+}
+
+.myprofile_desktop_right_about_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    margin-top: 35px;
+}
+
+.myprofile_desktop_right_about_btn_like {
+    background-color: white;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+    padding: 10px;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width:700px) {
+    .myprofile {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: gainsboro;
+    }
+
+    .myprofile_desktop {
+        display: none;
+      
+    }
+    
+    .myprofile_mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+     
+        background-color: white;
+    }
+    
+    
+    
+    .myprofile_mobile_top {
+        width: 100%;
+    
+    }
+    
+    .myprofile_mobile_top_con {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .myprofile_mobile_top_top_nav {
+        position: absolute;
+        top: 0px;
+        width: 95%;
+        height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    
+    .myprofile_mobile_top_top_nav_left {
+        background-color: white;
+        border-radius: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+        padding: 10px;
+        border: none;
+        color: red;
+        cursor: pointer;
+    }
+    
+    .myprofile_mobile_top_top_nav_right {
+        background-color: white;
+        border-radius: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+        padding: 10px;
+        border: none;
+        color: red;
+        cursor: pointer;
+    }
+    
+    .myprofile_mobile_top_img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    
+    .myprofile_mobile_bottom {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .myprofile_mobile_bottom_top_parent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 75px;
+    }
+    
+    .myprofile_mobile_bottom_top_child_1 {
+        width: 100%;
+        display: flex;
+        font-weight: bold;
+    }
+    
+    .myprofile_mobile_bottom_top_child_1_name {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .myprofile_mobile_bottom_top_child_1_age {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .myprofile_mobile_bottom_top_child_2 {
+        width: 100%;
+        display: flex;
+    }
+    
+    .myprofile_mobile_bottom_top_child_1_icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: red;
+    }
+    
+    .myprofile_mobile_bottom_top_child_1_location {
+        font-size: 20px;
+        color: gray;
+    }
+    
+    .myprofile_heading_1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        height: 40px;
+        font-style: italic;
+    }
+    
+    .myprofile_mobile_bottom_interest {
+        display: flex;
+    }
+    
+    .myprofile_mobile_bottom_interest_card {
+        background-color: white;
+        border-radius: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+        padding: 5px;
+        border: none;
+        color: red;
+        cursor: pointer;
+        width: 120px;
+    }
+    
+    .myprofile_mobile_bottom_interest_card_left {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .myprofile_mobile_bottom_interest_card_rigth {
+        font-size: 20px;
+    }
+    
+    .myprofile_heading_2 {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        height: 40px;
+        font-style: italic;
+    }
+    
+    .myprofile_mobile_bottom_about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .myprofile_mobile_bottom_about_con {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 150px;
+        width: 90%;
+    }
+    
+    .myprofile_mobile_bottom_about_buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        margin-top: 35px;
+    }
+    
+    .myprofile_mobile_bottom_about_btn_like {
+        background-color: white;
+        border-radius: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(149, 157, 165, 0.50) 0px 8px 24px;
+        padding: 10px;
+        border: none;
+        color: red;
+        cursor: pointer;
+    }
+}

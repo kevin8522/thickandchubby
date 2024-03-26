@@ -1,0 +1,194 @@
+.likes {
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.likes_desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes_desktop_card {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    min-height: 230px;
+    margin-top: 10px;
+}
+
+.likes_desktop_card_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.likes_desktop_card_left_img {
+    width: 90%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.likes_desktop_card_center {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.likes_desktop_card_center_child_1 {
+    padding-top: 0px;
+}
+
+.likes_desktop_card_center_child_1_top {
+    display: flex;
+    align-items: center;
+}
+
+.likes_desktop_card_center_child_1_top_name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.likes_desktop_card_center_child_1_top_age {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.likes_desktop_card_center_child_1_top_verified {
+    color: royalblue;
+    margin-left: 10px;
+}
+
+.likes_desktop_card_center_child_1_bottom {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+}
+
+.likes_desktop_card_center_child_1_bottom_location_icon {
+    color: red;
+}
+
+.likes_desktop_card_center_child_1_bottom_location_country {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.likes_desktop_card_center_child_1_bottom_location_city {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.likes_desktop_card_center_user_info {
+    padding-top: 5px;
+}
+
+.likes_desktop_card_center_user_info_con {
+    margin-top: 1px;
+}
+
+.likes_desktop_card_center_user_info_con_left {
+    color: black;
+}
+
+.likes_desktop_card_center_user_info_con_right {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+
+
+.likes_desktop_card_right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.likes_desktop_card_right {
+    width: 15%;
+    height: 100%;
+}
+
+.likes_desktop_card_right_child_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+
+.likes_desktop_card_right_child_2_icon_instagram {
+    color: orangered;
+}
+
+.likes_desktop_card_right_child_2_icon_phone {
+    color: blue;
+}
+
+.likes_desktop_card_right_child_2_icon_whatsapp {
+    color: green;
+}
+
+.likes_mobile {
+    display: none;
+}
+
+@media (max-width:700px) {
+
+
+    .likes_desktop {
+        display: none;
+    }
+
+    .likes_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .likes_desktop_card_left {
+        width: 40%;
+    }
+
+    .likes_desktop_card_center {
+        width: 60%;
+    }
+
+    .likes_mobile_card_right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid gainsboro;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+
+    .likes_mobile_card_right_child_2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .likes_mobile_card_right_child_2_icon_instagram {
+        margin-right: 10px;
+        color: orangered;
+
+    }
+
+    .likes_mobile_card_right_child_2_icon_phone {
+        margin-right: 10px;
+        color: blue;
+    }
+
+    .likes_mobile_card_right_child_2_icon_whatsapp {
+        margin-right: 10px;
+        color: green;
+    }
+}

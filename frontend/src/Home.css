@@ -1,0 +1,52 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.home_mobile {
+    display: none;
+}
+
+
+.home_desktop {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_desktop_user_list {
+    padding-top: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1fr  1fr 1fr;
+  
+}
+
+@media (max-width:700px) {
+    .home_desktop {
+        display: none;
+    }
+
+    .home_mobile {
+display: flex;
+flex-direction: column;
+    }
+
+    .home_mobile_list {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1023px) {
+   
+
+  
+}
+
+
+/*ipad pro 1024*/
+
